@@ -1,0 +1,20 @@
+.h1 {
+
+    text-align: center;
+
+}
+
+.gridContenedor {
+
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+}
+
+img {
+
+    width: 300px;
+    height: 450px;
+
+}
