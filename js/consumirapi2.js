@@ -63,17 +63,17 @@ function consumirAPI(){
 
         var series = document.createElement("a");
         series.innerText = "Ver Series";
-        series.href = "series.html?objeto=" + element.series.collectionURI;
+        series.href = "html/series.html?objeto=" + element.series.collectionURI;
         divHijo.appendChild(series);
 
         var comics = document.createElement("a");
         comics.innerText = "Ver comics";
-        comics.href = "comics.html?objeto=" + element.comics.collectionURI;
+        comics.href = "html/comics.html?objeto=" + element.comics.collectionURI;
         divHijo.appendChild(comics);
 
         var eventos = document.createElement("a");
         eventos.innerText = "Ver eventos";
-        eventos.href = "eventos.html?objeto=" + element.events.collectionURI;
+        eventos.href = "html/eventos.html?objeto=" + element.events.collectionURI;
         divHijo.appendChild(eventos);
 
         //divHijo.appendChild(enlaceSeries);
